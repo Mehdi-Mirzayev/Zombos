@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.img{
+    background: url("https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    right: 200px;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.icom{
+    color: white;
+    display: flex;
+    flex-direction: end;
+    font-size: 32px;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    
+}
+.ufo_car{
+position: absolute;
+left: 150px;
+
+}
+.ufo_text{
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    font-family:"Protest Guerrilla", sans-serif;
+}
+.ufo_about{
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    width: 400px;
+    font-family:"Protest Guerrilla", sans-serif;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(49, 141, 247);
+    font-size: 25px;
+    position: absolute;
+    top: 560px;
+    left: 150px;
+    border-radius: 5px;
+}
